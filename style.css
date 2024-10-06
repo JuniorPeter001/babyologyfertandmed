@@ -1,0 +1,123 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  * {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .main-head {
+    background-color: rgb(218, 218, 218);
+    border-bottom: 1px solid grey;
+  }
+
+  .cont-flu2 {
+    border-bottom: 1px solid grey;
+  }
+
+  .second-row {
+    height: 100px;
+  }
+
+  .second-row p {
+    font-size: 17px;
+    margin-top: -10px;
+  }
+
+  .callus .col-p1 {
+    position: absolute;
+    margin-left: 50px;
+  }
+
+  .callus .col-p2 {
+    position: relative; 
+    margin-left: 100px;
+    color: #0392ce;
+    font-weight: bold;
+    margin-top: 1px;
+  }
+
+  .callus .col-p3 {
+    position: relative; 
+    margin-left: 100px;
+  }
+
+  .header-start {
+    /* display: flex; */
+  }
+
+  .header-start nav ul{
+    display: flex;
+    gap: 40px;
+    margin-left: -30px;
+    justify-content: flex-start;
+  }
+
+  .header-start li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+
+  .header-start li a:hover {
+    color: #0392ce;
+    border-bottom: 1px solid #0392ce;
+  }
+
+  .consult-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #0392ce;
+    padding: 20px 20px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .consult-btn:hover {
+    background-color: rgb(5, 5, 5);
+  }
+
+  .bg-img1 {
+    background-image: url('images/bg-rmv1.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: contain;
+    background-color: #5cbbe4;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .bg-img2 {
+    background-image: url('images/bg-rmv2.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: contain;
+    background-color: #5cbbe4;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .bg-img3 {
+    background-image: url('images/bg-rmv3.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: contain;
+    background-color: #5cbbe4;
+    object-fit: cover;
+    object-position: center;
+  }
